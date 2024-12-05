@@ -8,43 +8,47 @@ msgstr ""
 "Project-Id-Version: aspinwall\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-06 13:47+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-06 07:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/aspinwall-ui/"
+"aspinwall-shell/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:6
 msgid "Widgets"
-msgstr ""
+msgstr "நிரல்பலகை"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:7
 msgid "List of added widgets."
-msgstr ""
+msgstr "சேர்க்கப்பட்ட விட்செட்டுகளின் பட்டியல்."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:15
 msgid "Path to wallpaper"
-msgstr ""
+msgstr "வால்பேப்பருக்கான பாதை"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:16
 msgid "Path to a wallpaper file."
-msgstr ""
+msgstr "வால்பேப்பர் கோப்பிற்கான பாதை."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:23
 #: src/launcher/ui/settings.ui:289
 msgid "Wallpaper style"
-msgstr ""
+msgstr "வால்பேப்பர் பாணி"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:24
 msgid "Which wallpaper style to use (0 - solid color, 1 - scaled, 2 - zoomed)."
 msgstr ""
+"எந்த வால்பேப்பர் பாணி பயன்படுத்த வேண்டும் (0 - திட நிறம், 1 - அளவிடப்பட்டது, 2 - பெரிதாக்கப்பட்டது)."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:31
 #: src/launcher/ui/settings.ui:311
 msgid "Wallpaper background color"
-msgstr ""
+msgstr "வால்பேப்பர் பின்னணி நிறம்"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:32
 msgid ""
@@ -52,22 +56,25 @@ msgid ""
 "background for scaled images), stored as an array of three integers: Red, "
 "Green, Blue (0-255)."
 msgstr ""
+"வால்பேப்பருக்கான பின்னணி நிறம் (\"திட வண்ணம்\" பயன்முறைக்கு அல்லது அளவிடப்பட்ட படங்களுக்கான பின்னணிக்கு), மூன்று "
+"முழு எண்களின் வரிசையாக சேமிக்கப்படுகிறது: சிவப்பு, பச்சை, நீலம் (0-255)."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:40
 #: src/launcher/ui/settings.ui:141 src/launcher/ui/settings.ui:168
 msgid "Available wallpapers"
-msgstr ""
+msgstr "கிடைக்கும் வால்பேப்பர்கள்"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:41
 msgid ""
 "List of wallpaper files available in the wallpaper picker in settings. Also "
 "used for the slideshow mode."
 msgstr ""
+"அமைப்புகளில் வால்பேப்பர் பிக்கரில் கிடைக்கும் வால்பேப்பர் கோப்புகளின் பட்டியல். ச்லைடுசோ பயன்முறையிலும் பயன்படுத்தப்படுகிறது."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:50
 #: src/launcher/ui/settings.ui:243
 msgid "Slideshow mode"
-msgstr ""
+msgstr "ச்லைடுசோ பயன்முறை"
 
 #. TRANSLATORS: Alternatively, this can be translated as "the launcher automatically switches between available wallpapers".
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:52
@@ -76,68 +83,75 @@ msgid ""
 "In slideshow mode, the launcher automatically loops over available "
 "wallpapers."
 msgstr ""
+"ச்லைடுசோ பயன்முறையில், கிடைக்கக்கூடிய வால்பேப்பர்கள் மீது துவக்கி தானாகவே சுழல்கிறது."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:59
 msgid "Slideshow switch delay"
-msgstr ""
+msgstr "ச்லைடுசோ சுவிட்ச் நேரந்தவறுகை"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:60
 msgid "Time between each wallpaper switch in slideshow mode, in seconds."
 msgstr ""
+"ச்லைடுசோ பயன்முறையில் ஒவ்வொரு வால்பேப்பர் சுவிட்சிற்கும் இடையிலான நேரம், நொடிகளில்."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:67
 msgid "Slideshow switch counter"
-msgstr ""
+msgstr "ச்லைடுசோ சுவிட்ச் கவுண்டர்"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:68
 msgid ""
 "Used by the slideshow mode to keep track of the time remaining until the "
 "next wallpaper switch."
 msgstr ""
+"அடுத்த வால்பேப்பர் சுவிட்ச் வரை மீதமுள்ள நேரத்தைக் கண்காணிக்க ச்லைடுசோ பயன்முறையால் பயன்படுத்தப்படுகிறது."
 
 #. TRANSLATORS: This is for the light/dark mode switch; can be translated as "Preferred theme"
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:77
 #: src/launcher/ui/settings.ui:333
 msgid "Theme preference"
-msgstr ""
+msgstr "கருப்பொருள் விருப்பம்"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:78
 msgid ""
 "Whether to use light theme, dark theme or follow system theme. (0 - follow "
 "system theme, 1 - light, 2 - dark)"
 msgstr ""
+"ஒளி கருப்பொருள், இருண்ட கருப்பொருள் பயன்படுத்த வேண்டுமா அல்லது கணினி கருப்பொருளைப் பின்பற்ற வேண்டுமா. (0 - கணினி "
+"கருப்பொருள், 1 - ஒளி, 2 - இருண்டது)"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:87
 msgid "Widget autorefresh delay"
-msgstr ""
+msgstr "விட்செட் ஆட்டோரெஃப்ரெச் நேரந்தவறுகை"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:88
 msgid ""
 "Amount of time (in seconds) between automatic widget refreshing. Set to 0 to "
 "disable autorefresh. (Default: 900 seconds - 15 minutes)"
 msgstr ""
+"தானியங்கி விட்செட் புத்துணர்ச்சிக்கு இடையில் நேரம் (விநாடிகளில்). ஆட்டோர்ஃப்ரெசை முடக்க 0 என அமைக்கவும். (இயல்புநிலை: "
+"900 வினாடிகள் - 15 நிமிடங்கள்)"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:95
 msgid "Time until idle mode activation"
-msgstr ""
+msgstr "செயலற்ற முறை செயல்படுத்தும் வரை நேரம்"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:96
 msgid ""
 "Amount of time (in seconds) after which the launcher goes into idle mode."
-msgstr ""
+msgstr "துவக்கி செயலற்ற பயன்முறையில் செல்லும் நேரம் (விநாடிகளில்)."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:103
 #: src/launcher/ui/settings.ui:418
 msgid "Clock size"
-msgstr ""
+msgstr "கடிகார அளவு"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:104
 msgid "Size of the clock in the launcher (0 - small, 1 - medium, 2 - large)."
-msgstr ""
+msgstr "துவக்கத்தில் கடிகாரத்தின் அளவு (0 - சிறிய, 1 - நடுத்தர, 2 - பெரியது)."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:111
 msgid "Favorite apps"
-msgstr ""
+msgstr "பிடித்த பயன்பாடுகள்"
 
 #. TRANSLATORS: ".desktop files" refers to a specific filetype. Do not translate the ".desktop" bit.
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:113
@@ -145,153 +159,160 @@ msgid ""
 "List of favorite apps for the app chooser, stored as paths to their .desktop "
 "files."
 msgstr ""
+"பயன்பாட்டு தேர்வாளருக்கான பிடித்த பயன்பாடுகளின் பட்டியல், அவற்றின் .desktop கோப்புகளுக்கான பாதைகளாக "
+"சேமிக்கப்படுகிறது."
 
 #. TRANSLATORS: This can also be translated as just "time format"
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:120
 #: src/launcher/ui/settings.ui:462
 msgid "Time format string"
-msgstr ""
+msgstr "நேர வடிவமைப்பு சரம்"
 
 #. TRANSLATORS: Default time format string for your locale; should only contain the hour and minutes. For reference, see https://docs.python.org/3/library/time.html#time.strftime; see also how other desktop environments/operating systems handle this.
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:122
 msgid "\"%H:%M\""
-msgstr ""
+msgstr "\"%I:%m%p\""
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:123
 msgid ""
 "Time format string for the clock, using the format described in the "
 "documentation at https://docs.python.org/3/library/time.html#time.strftime."
 msgstr ""
+"கடிகாரத்திற்கான நேர வடிவமைப்பு சரம், https://docs.python.org/3/library/time.html#"
+"time.strftime இல் உள்ள ஆவணங்களில் விவரிக்கப்பட்டுள்ள வடிவமைப்பைப் பயன்படுத்தி."
 
 #. TRANSLATORS: This can also be translated as just "date format"
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:130
 #: src/launcher/ui/settings.ui:475
 msgid "Date format string"
-msgstr ""
+msgstr "தேதி வடிவமைப்பு சரம்"
 
 #. TRANSLATORS: Default date format string for your locale; should contain the week day and date. For reference, see https://docs.python.org/3/library/time.html#time.strftime; see also how other desktop environments/operating systems handle this.
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:132
 msgid "\"%A, %x\""
-msgstr ""
+msgstr "\" %A, %b %d %y\""
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:133
 msgid ""
 "Date format string for the clock, using the format described in the "
 "documentation at https://docs.python.org/3/library/time.html#time.strftime."
 msgstr ""
+"Https://docs.python.org/3/library/time.html#time.strftime இல் உள்ள ஆவணங்களில் "
+"விவரிக்கப்பட்டுள்ள வடிவமைப்பைப் பயன்படுத்தி கடிகாரத்திற்கான தேதி வடிவமைப்பு சரம்."
 
 #. TRANSLATORS: This is the description, as seen in the about dialog.
 #: src/launcher/ui/about.ui:28
 msgid "Linux tablet UI with smart hub capabilities"
-msgstr ""
+msgstr "அறிவுள்ள அப் திறன்களுடன் லினக்ச் டேப்லெட் இடைமுகம்"
 
 #. TRANSLATORS: You can also translate "contributors" as "programmers" or "developers".
 #: src/launcher/ui/about.ui:30
 msgid "Copyright © 2022 Aspinwall contributors"
-msgstr ""
+msgstr "பதிப்புரிமை © 2022 ஆச்பின்வால் பங்களிப்பாளர்கள்"
 
 #: src/launcher/ui/appchooser.ui:24
 msgid "Search apps…"
-msgstr ""
+msgstr "பயன்பாடுகளைத் தேடுங்கள்…"
 
 #. TRANSLATORS: Tooltip text for close button
 #: src/launcher/ui/appchooser.ui:32 src/launcher/ui/widgetchooser.ui:39
 msgid "Close"
-msgstr ""
+msgstr "மூடு"
 
 #: src/launcher/ui/appchooser.ui:123 src/launcher/ui/widgetchooser.ui:67
 msgid "No Results Found"
-msgstr ""
+msgstr "முடிவுகள் எதுவும் கிடைக்கவில்லை"
 
 #: src/launcher/ui/appchooser.ui:124 src/launcher/ui/widgetchooser.ui:68
 msgid "Try a different search"
-msgstr ""
+msgstr "வேறு தேடலை முயற்சிக்கவும்"
 
 #: src/launcher/ui/appicon.ui:63
 msgid "_Remove from favorites"
-msgstr ""
+msgstr "_ பிடித்தவைகளிலிருந்து அகற்றவும்"
 
 #: src/launcher/ui/appicon.ui:68
 msgid "_Add to favorites"
-msgstr ""
+msgstr "பிடித்தவைகளில் சேர்க்கவும்"
 
 #. TRANSLATORS: Tooltip for the "open app chooser" button in the launcher
 #: src/launcher/ui/launcher.ui:56
 msgid "Installed apps"
-msgstr ""
+msgstr "நிறுவப்பட்ட பயன்பாடுகள்"
 
 #: src/launcher/ui/settings.ui:17
 msgid "Wallpaper"
-msgstr ""
+msgstr "வால்பேப்பர்"
 
 #: src/launcher/ui/settings.ui:21
 msgid "Wallpaper preview"
-msgstr ""
+msgstr "வால்பேப்பர் முன்னோட்டம்"
 
 #. TRANSLATOR: For the "Available wallpapers" option; box can be translated as field
 #: src/launcher/ui/settings.ui:180
 msgid "The images in this box are used for the slideshow mode if it's enabled."
 msgstr ""
+"இந்த பெட்டியில் உள்ள படங்கள் ச்லைடுசோ பயன்முறையில் இயக்கப்பட்டிருந்தால் பயன்படுத்தப்படுகின்றன."
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency
 #: src/launcher/ui/settings.ui:256
 msgid "Switch wallpaper every:"
-msgstr ""
+msgstr "ஒவ்வொரு வால்பேப்பரையும் மாற்றவும்:"
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency; this will be prefixed by the string you set for "Switch wallpaper every:", so make sure to keep the correct form to continue that sentence.
 #. TRANSLATORS: Used for the idle mode frequency; this will be prefixed by the string you set for "Switch to idle mode after:", so make sure to keep the correct form to continue that sentence.
 #: src/launcher/ui/settings.ui:266 src/launcher/ui/settings.ui:395
 msgid "1 minute"
-msgstr ""
+msgstr "1 மணித்துளி"
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency; this will be prefixed by the string you set for "Switch wallpaper every:", so make sure to keep the correct form to continue that sentence.
 #. TRANSLATORS: Used for the idle mode frequency; this will be prefixed by the string you set for "Switch to idle mode after:", so make sure to keep the correct form to continue that sentence.
 #: src/launcher/ui/settings.ui:268 src/launcher/ui/settings.ui:397
 msgid "3 minutes"
-msgstr ""
+msgstr "3 நிமிடங்கள்"
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency; this will be prefixed by the string you set for "Switch wallpaper every:", so make sure to keep the correct form to continue that sentence.
 #. TRANSLATORS: Used for the idle mode frequency; this will be prefixed by the string you set for "Switch to idle mode after:", so make sure to keep the correct form to continue that sentence.
 #: src/launcher/ui/settings.ui:270 src/launcher/ui/settings.ui:399
 msgid "5 minutes"
-msgstr ""
+msgstr "5 நிமிடங்கள்"
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency; this will be prefixed by the string you set for "Switch wallpaper every:", so make sure to keep the correct form to continue that sentence.
 #. TRANSLATORS: Used for the idle mode frequency; this will be prefixed by the string you set for "Switch to idle mode after:", so make sure to keep the correct form to continue that sentence.
 #: src/launcher/ui/settings.ui:272 src/launcher/ui/settings.ui:401
 msgid "10 minutes"
-msgstr ""
+msgstr "10 நிமிடங்கள்"
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency; this will be prefixed by the string you set for "Switch wallpaper every:", so make sure to keep the correct form to continue that sentence.
 #. TRANSLATORS: Used for the idle mode frequency; this will be prefixed by the string you set for "Switch to idle mode after:", so make sure to keep the correct form to continue that sentence.
 #: src/launcher/ui/settings.ui:274 src/launcher/ui/settings.ui:403
 msgid "15 minutes"
-msgstr ""
+msgstr "15 நிமிடங்கள்"
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency; this will be prefixed by the string you set for "Switch wallpaper every:", so make sure to keep the correct form to continue that sentence.
 #: src/launcher/ui/settings.ui:276
 msgid "30 minutes"
-msgstr ""
+msgstr "30 நிமிடங்கள்"
 
 #. TRANSLATORS: Used for the slideshow mode switch frequency; this will be prefixed by the string you set for "Switch wallpaper every:", so make sure to keep the correct form to continue that sentence.
 #: src/launcher/ui/settings.ui:278
 msgid "1 hour"
-msgstr ""
+msgstr "1 மணி நேரம்"
 
 #. TRANSLATORS: Wallpaper scaling option
 #: src/launcher/ui/settings.ui:298
 msgid "Solid color"
-msgstr ""
+msgstr "திட நிறம்"
 
 #. TRANSLATORS: Wallpaper scaling option
 #: src/launcher/ui/settings.ui:300
 msgid "Scaled"
-msgstr ""
+msgstr "அளவிடப்பட்டது"
 
 #. TRANSLATORS: Wallpaper scaling option
 #: src/launcher/ui/settings.ui:302
 msgid "Zoomed"
-msgstr ""
+msgstr "பெரிதாக்கப்பட்டது"
 
 #. TRANSLATORS: Please use the quotation mark symbols appropriate for your language, not the default '"' symbol. (In Weblate, you can find shortcuts to the quotation mark symbols in the right corner above the translation field for your language.)
 #. If it's easier, you can simply describe these as "modes" and omit the quotation marks entirely, but if you're refering to the wallpaper style verbatim please add the quotes.
@@ -300,62 +321,65 @@ msgid ""
 "Used for the “Solid Color” wallpaper style, as well as the backdrop for the "
 "“Scaled” style."
 msgstr ""
+"“திட நிறம்” வால்பேப்பர் பாணிக்கு பயன்படுத்தப்படுகிறது, அதே போல் “அளவிடப்பட்ட” பாணியின் பின்னணியும்."
 
 #: src/launcher/ui/settings.ui:329
 msgid "Theme"
-msgstr ""
+msgstr "கருப்பொருள்"
 
 #. TRANSLATORS: This refers to the light theme.
 #: src/launcher/ui/settings.ui:346
 msgid "Light"
-msgstr ""
+msgstr "ஒளி"
 
 #. TRANSLATORS: This refers to the dark theme.
 #: src/launcher/ui/settings.ui:355
 msgid "Dark"
-msgstr ""
+msgstr "இருண்ட"
 
 #: src/launcher/ui/settings.ui:366
 msgid "Follow system theme"
-msgstr ""
+msgstr "கணினி கருப்பொருள் பின்பற்றவும்"
 
 #: src/launcher/ui/settings.ui:380
 msgid "Launcher"
-msgstr ""
+msgstr "துவக்கி"
 
 #. TRANSLATORS: "Idle mode" refers to the mode where, after a set time of inactivity, the widgets reduce their opacity and the app chooser/menu buttons disappear.
 #: src/launcher/ui/settings.ui:385
 msgid "Enter idle mode after:"
-msgstr ""
+msgstr "செயலற்ற பயன்முறையை உள்ளிடவும்:"
 
 #: src/launcher/ui/settings.ui:386
 msgid ""
 "In idle mode, after some time of inactivity, the opacity of the widgets is "
 "reduced, and the menu buttons are hidden."
 msgstr ""
+"செயலற்ற பயன்முறையில், செயலற்ற தன்மைக்குப் பிறகு, விட்செட்களின் ஒளிபுகாநிலை குறைகிறது, மேலும் பட்டியல் பொத்தான்கள் "
+"மறைக்கப்படுகின்றன."
 
 #: src/launcher/ui/settings.ui:414
 msgid "Clock"
-msgstr ""
+msgstr "கடிகை"
 
 #. TRANSLATORS: Clock size option
 #: src/launcher/ui/settings.ui:427
 msgid "Small"
-msgstr ""
+msgstr "சிறிய"
 
 #. TRANSLATORS: Clock size option
 #: src/launcher/ui/settings.ui:429
 msgid "Medium"
-msgstr ""
+msgstr "சராசரி"
 
 #. TRANSLATORS: Clock size option
 #: src/launcher/ui/settings.ui:431
 msgid "Large"
-msgstr ""
+msgstr "பெரிய"
 
 #: src/launcher/ui/settings.ui:440
 msgid "Time and date format"
-msgstr ""
+msgstr "நேரம் மற்றும் தேதி வடிவம்"
 
 #: src/launcher/ui/settings.ui:441
 msgid ""
@@ -363,145 +387,147 @@ msgid ""
 "href='https://docs.python.org/3/library/time.html#time.strftime'>the time "
 "format string specification</a>."
 msgstr ""
+"நேரம் மற்றும் தேதியைக் காண்பிக்கும் போது பயன்படுத்த வேண்டிய வடிவமைப்பை அமைக்கவும், <a href = 'https: //docs."
+"python.org/3/library/time.html#time.strftime'> நேர வடிவமைப்பு சரம் விவரக்குறிப்பு </a> ."
 
 #. TRANSLATORS: Used for the "reset time format to default" option.
 #: src/launcher/ui/settings.ui:446
 msgid "Reset to defaults"
-msgstr ""
+msgstr "இயல்புநிலைகளுக்கு மீட்டமைக்கவும்"
 
 #: src/launcher/ui/settings.ui:447
 msgid "Sets the time format to default settings."
-msgstr ""
+msgstr "இயல்புநிலை அமைப்புகளுக்கு நேர வடிவமைப்பை அமைக்கிறது."
 
 #. TRANSLATORS: Used for the "reset time format to default" option.
 #: src/launcher/ui/settings.ui:452
 msgid "Reset"
-msgstr ""
+msgstr "மீட்டமை"
 
 #. TRANSLATORS: Tooltip for menu button in the launcher
 #: src/launcher/ui/widgetbox.ui:53
 msgid "Launcher configuration"
-msgstr ""
+msgstr "துவக்கி உள்ளமைவு"
 
 #. TRANSLATORS: Tooltip for "Add widgets" button in widget management mode
 #: src/launcher/ui/widgetbox.ui:82
 msgid "Add widgets"
-msgstr ""
+msgstr "விட்செட்டுகளைச் சேர்க்கவும்"
 
 #. TRANSLATORS: Tooltip for "Exit" button in widget management mode
 #: src/launcher/ui/widgetbox.ui:101
 msgid "Exit widget management mode"
-msgstr ""
+msgstr "விட்செட் மேலாண்மை பயன்முறையிலிருந்து வெளியேறவும்"
 
 #: src/launcher/ui/widgetbox.ui:135
 msgid "_Add Widgets…"
-msgstr ""
+msgstr "விட்செட்டுகளைச் சேர்க்கவும்…"
 
 #: src/launcher/ui/widgetbox.ui:140
 msgid "_Manage Widgets"
-msgstr ""
+msgstr "_ மானேச் விட்செட்டுகள்"
 
 #: src/launcher/ui/widgetbox.ui:147
 msgid "_Launcher Settings"
-msgstr ""
+msgstr "_Launcher அமைப்புகள்"
 
 #: src/launcher/ui/widgetbox.ui:152
 msgid "A_bout Aspinwall"
-msgstr ""
+msgstr "A_bout ஆச்பின்வால்"
 
 #: src/launcher/ui/widgetchooser.ui:30
 msgid "Search widgets…"
-msgstr ""
+msgstr "விட்செட்களைத் தேடுங்கள்…"
 
 #. TRANSLATORS: Tooltip for the "Edit widget" button that appears when hovering over a widget
 #: src/launcher/ui/widgetview.ui:48
 msgid "Edit widget"
-msgstr ""
+msgstr "விட்செட்டைத் திருத்து"
 
 #: src/launcher/ui/widgetview.ui:94
 msgid "Close widget settings"
-msgstr ""
+msgstr "விட்செட் அமைப்புகளை மூடு"
 
 #. TRANSLATORS: "Widget" here is singular; this is used for the widget-specific settings menu header
 #: src/launcher/ui/widgetview.ui:107 src/launcher/ui/widgetviewheader.ui:62
 msgid "Widget settings"
-msgstr ""
+msgstr "விட்செட் அமைப்புகள்"
 
 #. TRANSLATORS: Tooltip for "remove widget" button
 #: src/launcher/ui/widgetviewheader.ui:18
 msgid "Remove"
-msgstr ""
+msgstr "அகற்று"
 
 #. TRANSLATORS: Tooltip for "move widget up" button in widget header
 #: src/launcher/ui/widgetviewheader.ui:88
 msgid "Move up"
-msgstr ""
+msgstr "மேலே செல்லுங்கள்"
 
 #. TRANSLATORS: Tooltip for "move widget down" button in widget header
 #: src/launcher/ui/widgetviewheader.ui:103
 msgid "Move down"
-msgstr ""
+msgstr "கீழே செல்லுங்கள்"
 
 #. TRANSLATORS: Tooltip for "exit widget edit mode"/close button on widget headers
 #: src/launcher/ui/widgetviewheader.ui:127
 msgid "Exit editing mode"
-msgstr ""
+msgstr "திருத்துதல் பயன்முறையில் வெளியேறவும்"
 
 #. TRANSLATORS: Used in the popup that appears when you remove a widget
 #: src/launcher/widgetbox.py:126
 #, python-format
 msgid "Removed “%s”"
-msgstr ""
+msgstr "“%s” அகற்றப்பட்டது"
 
 #. TRANSLATORS: Used in the popup that appears when you remove a widget
 #: src/launcher/widgetbox.py:129
 msgid "Undo"
-msgstr ""
+msgstr "செயல்தவிர்"
 
 #: src/launcher/settings.py:236
 msgid "Add wallpaper"
-msgstr ""
+msgstr "வால்பேப்பரைச் சேர்க்கவும்"
 
 #. TRANSLATORS: Used for the file chooser dialog for adding wallpapers
 #: src/launcher/settings.py:242
 msgid "_Cancel"
-msgstr ""
+msgstr "_CANCEL"
 
 #. noqa: F821
 #. TRANSLATORS: Used for the file chooser dialog for adding wallpapers
 #: src/launcher/settings.py:244
 msgid "_Select"
-msgstr ""
+msgstr "_ தேர்ந்தெடுக்கவும்"
 
 #: src/shell/ui/controlpanel.ui:27
 msgid "Settings"
-msgstr ""
+msgstr "அமைப்புகள்"
 
 #. TRANSLATORS: Used for the "shut down" button in the control panel
 #: src/shell/ui/controlpanel.ui:70
 msgid "Shut down"
-msgstr ""
+msgstr "நிறுத்தி மூடு"
 
 #. TRANSLATORS: Used for the inactive state of the Wi-Fi button in the control panel
 #: src/shell/ui/controlpanel.ui:107
 msgid "Wi-Fi"
-msgstr ""
+msgstr "இல்"
 
 #. TRANSLATORS: Used for the inactive state of the battery button in the control panel
 #: src/shell/ui/controlpanel.ui:122
 msgid "No battery"
-msgstr ""
+msgstr "பேட்டரி இல்லை"
 
 #. TRANSLATORS: Used for the microphone enable/disable button in the control panel
 #: src/shell/ui/controlpanel.ui:130
 msgid "Microphone"
-msgstr ""
+msgstr "ஒலிவாங்கி"
 
 #. TRANSLATORS: Used for the automatic rotation button
 #: src/shell/ui/controlpanel.ui:138
 msgid "Auto-rotation"
-msgstr ""
+msgstr "ஆட்டோ-சுழற்சி"
 
 #: src/shell/ui/controlpanel.ui:196
 msgid "No new notifications"
-msgstr ""
+msgstr "புதிய அறிவிப்புகள் இல்லை"
